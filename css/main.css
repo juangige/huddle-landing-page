@@ -115,10 +115,16 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: start;
     gap: 1rem;
     width: 60%;
     padding-left: 20px;
 
+}
+
+.carta2{
+    display: flex;
+    justify-content: center;
 }
 
 .carta3{
@@ -223,4 +229,178 @@ p{
     font-size: 20px;
     padding: 10px;
     color: #fff;
+}
+
+.copyright{
+    display: none;
+}
+
+
+/* Mobile Desing */
+
+@media screen and (max-width: 480px) {
+    
+.hero{
+    background-image: url("../images/bg-hero-mobile.svg");
+}
+
+.header{
+    padding: 0;
+}
+
+.header .logo{
+    margin: 20px;
+}
+
+.btn1{
+    width: 30%;
+    margin: 20px;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    
+}
+
+.title h1{
+    font-size: 26px;
+}
+
+.btn2{
+    width: 50%;
+}
+
+.img-moqups{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-top: 50px;
+}
+
+.carta{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    place-items: center;
+}
+
+.carta1 .text-carta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+    order: 1;
+}
+
+.text-carta p{
+    text-align: start;
+    width: 100%;
+    font-size: 15px;
+}
+
+.carta1 .img-carta{
+    width: 100%;
+    order: 0;
+}
+
+.carta2{
+    display: grid;
+    gap: 2rem;
+}
+
+.carta2 img{
+    width: 100%;
+}
+
+.carta2 .text-carta2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text-carta2 h3{
+    font-size: 18px;
+}
+
+.text-carta2 p{
+    font-size: 15px;
+}
+
+.carta3 .text-carta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    order: 1;
+}
+
+.carta3 img{
+    width: 100%;
+    order: 0;
+}
+
+.carta3 h4{
+    font-size: 18px;
+}
+
+.carta3 p{
+    font-size: 15px;
+}
+
+.carta-build{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta-b{
+    width: 80%;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contacto{
+    margin-left: 0;
+    width: 100%;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 0;
+}
+
+.icn-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    margin: 20px;
+}
+
 }
